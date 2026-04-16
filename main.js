@@ -1,6 +1,4 @@
-// main.js — The World of Butterflies
 
-// dark mode
 const toggleBtn = document.getElementById('toggleDark');
 const darkIcon = document.getElementById('darkIcon');
 
@@ -29,7 +27,6 @@ toggleBtn.addEventListener('click', function() {
 });
 
 
-// back to top
 const backToTopBtn = document.getElementById('backToTop');
 
 window.addEventListener('scroll', function() {
@@ -45,7 +42,6 @@ backToTopBtn.addEventListener('click', function() {
 });
 
 
-// navbar shadow au scroll
 const navbar = document.querySelector('.navbar');
 
 window.addEventListener('scroll', function() {
